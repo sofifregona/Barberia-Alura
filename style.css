@@ -321,11 +321,11 @@ td, th {
         margin: 0 1em;
     }
 
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .input-padron, .enviar, .main-contacto {
+    .caja, .principal, .lista-diferenciales, .mapa-contenido, .contenido-diferenciales, .video, .productos, .input-padron, .enviar, .main-contacto {
         width: auto; 
     }
 
-    .lista-diferenciales, .imagen-diferenciales, form {
+    form, .imagen-diferenciales {
         width: 100%;
     }
 
