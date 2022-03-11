@@ -249,6 +249,7 @@ td, th {
     width: 60%;
     transition: 400ms;
     box-shadow: 10px 10px 10PX #333333;
+    margin: 0 1%;
 }
 
 .imagen-diferenciales:hover {
@@ -276,14 +277,11 @@ td, th {
 
     form {
         margin: 0 1em;
-    }
-
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .input-padron, .enviar, .main-contacto {
-        width: auto; 
-    }
-
-    .lista-diferenciales, .imagen-diferenciales {
         width: 100%;
+    }
+
+    .caja, .principal, .mapa-contenido, .lista-diferenciales, .contenido-diferenciales, .video, .productos, .input-padron, .enviar, .main-contacto {
+        width: auto; 
     }
 
     .productos li {
@@ -304,6 +302,11 @@ td, th {
         width: 200px;
         height: 100px;
     }
+
+    .imagen-diferenciales {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width:1080px){
@@ -319,14 +322,11 @@ td, th {
 
     form {
         margin: 0 1em;
+        width: 100%;
     }
 
     .caja, .principal, .lista-diferenciales, .mapa-contenido, .contenido-diferenciales, .video, .productos, .input-padron, .enviar, .main-contacto {
         width: auto; 
-    }
-
-    form, .imagen-diferenciales {
-        width: 100%;
     }
 
     .productos li {
@@ -346,4 +346,10 @@ td, th {
         width: 300px;
         height: 150px;
     }
+
+    .imagen-diferenciales {
+        width: 100%;
+        margin: 0;
+    }
+
 }
